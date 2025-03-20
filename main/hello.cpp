@@ -6,5 +6,7 @@ int main(void) {
   cout << "Hello, World\n";
   cout << "Hello, Jenkins\n";
   cout << "I have successfully built and run this  \n";
+  int count = 3;  // Counting the number of printed lines
+  cout << "Total printed lines: " << count << endl;
   return 0;
 }
